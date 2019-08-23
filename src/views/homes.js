@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div className="background" key="full">
-               Home est là
+              
                <li><Link to={'/about'} className="nav-link"> About </Link></li>
             </div>
         );

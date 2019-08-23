@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-
+ 
+ import {Container} from 'react-bootstrap'
 class Layout extends Component {
     constructor(){
         super();       
     }
     render() {
-        return (
-            <div className="background" key="full">
+        return ( <div>
                 <Header />
-                <div className="container-fluid">
-                    {this.props.children}
-                </div>
+                    <Container>
+                        {this.props.children}
+                    </Container>
                 <Footer/>
             </div>
         );
