@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Navbar,Nav,Button,FormControl,Form} from 'react-bootstrap';
 class Header extends Component {
-    constructor(){
-        super();       
+    constructor() {
+        super();
     }
     render() {
         return (
@@ -26,4 +26,3 @@ class Header extends Component {
     }
 }
 export default Header;
-
