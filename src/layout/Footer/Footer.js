@@ -16,10 +16,10 @@ class Footer extends Component {
                           <img
                             className="d-block w-100"
                             src=""
-                            alt="First slide"
+                            alt="Orange Madagascar"
                           />
                           <Carousel.Caption>
-                            <h3>First slide label</h3>
+                            <h3>Orange Madagascar</h3>
 
                           </Carousel.Caption>
                         </Carousel.Item>
@@ -27,23 +27,23 @@ class Footer extends Component {
                           <img
                             className="d-block w-100"
                             src=""
-                            alt="Third slide"
+                            alt="Telma Madagascar"
                           />
 
                           <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Telma Madagascar</h3>
+                            
                           </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                           <img
                             className="d-block w-100"
                             src=""
-                            alt="Third slide"
+                            alt="Airtel Madagascar"
                           />
 
                           <Carousel.Caption>
-                            <h3>Third slide label</h3>
+                            <h3>Airtel Madagascar</h3>
 
                           </Carousel.Caption>
                         </Carousel.Item>
