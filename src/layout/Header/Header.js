@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div className="background" key="full">
-               Header simple
+               Header
             </div>
         );
     }
