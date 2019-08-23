@@ -14,14 +14,14 @@ body{
 }
 footer{
     min-height: 200px;
-    background-color: #9da0a4;
+    background-color: #18345a;
 }
 .navbar-expand {
     flex-flow: row nowrap;
     justify-content: flex-start;
     padding-top: 30px;
 }
-.container {
+.content {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -36,16 +36,26 @@ footer{
     
 }
 .carousel{
-    max-height: 400px;
+    max-height: 5000px;
 }
-.carousel-item img{
-    height: 380;
-    margin: auto;
-    padding: 10;
-}
-
-.w-100{
-    height: 380px;
+.carousel-home .carousel-item img{
+   height: 480px;
     margin: auto;
     padding: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 98%;
+}
+.cl_part{
+    min-height: 50px;
+    background-color: #c82333;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.cl_part{
+    min-height: 400px;
 }
