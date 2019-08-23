@@ -1,14 +1,25 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import './Header.css';
 
 class Header extends Component {
-    constructor(){
-        super();       
+    constructor() {
+        super();
     }
     render() {
         return (
-            <div className="background" key="full">
-               Header
-            </div>
+            <header id="header">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Other
+                    </li>
+                </ul>
+            </header>
         );
     }
 }

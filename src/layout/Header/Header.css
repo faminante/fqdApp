@@ -1,0 +1,7 @@
+#header{
+    border: 2px solid black;
+}
+
+#header > ul{
+    display: inline-block;
+}
