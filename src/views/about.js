@@ -1,18 +1,16 @@
 import React, {Component} from 'react';
-import { Link} from 'react-router-dom'
 
-class Home extends Component {
+class About extends Component {
     constructor(){
         super();       
     }
     render() {
         return (
             <div className="background" key="full">
-               Home est là
-               <li><Link to={'/about'} className="nav-link"> About </Link></li>
+               About est là
             </div>
         );
     }
 }
-export default Home;
+export default About;
 
